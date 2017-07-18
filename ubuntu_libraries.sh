@@ -44,4 +44,6 @@ apt-get install -y go-for-it
 add-apt-repository ppa:nathan-renniewaldock/flux
 apt-get update
 apt-get install -y fluxgui
-
+# Okular and VLC
+apt-get install -y okular
+apt-get install -y vlc
