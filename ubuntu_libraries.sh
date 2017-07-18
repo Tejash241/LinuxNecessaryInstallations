@@ -21,9 +21,22 @@ apt-get install sublime-text
 apt-get install python-pip
 apt-get install virtualenv
 
+apt-get update
 # More Ubuntu Software
 apt-get install vim
 # GIMP - refer to http://tipsonubuntu.com/2016/08/02/install-gimp-2-9-5-ubuntu-16-04/
 add-apt-repository ppa:otto-kesselgulasch/gimp-edge
 apt install gimp gimp-gmic
 apt install ppa-purge && ppa-purge ppa:otto-kesselgulasch/gimp-edge
+# Google Chrome - refer to https://askubuntu.com/questions/510056/how-to-install-google-chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - 
+sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+apt-get install google-chrome-stable
+# Calendar indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt install calendar-indicator
+# Go-gfor-it Refer - https://itsfoss.com/go-for-it-to-do-app-in-linux/
+sudo add-apt-repository ppa:mank319/go-for-it
+sudo apt-get install go-for-it
+
+
