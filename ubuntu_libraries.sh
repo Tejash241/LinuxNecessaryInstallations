@@ -47,6 +47,7 @@ apt-get install -y fluxgui
 # Okular and VLC
 apt-get install -y okular
 apt-get install -y vlc
-#GDB
+# GDB
 apt-get install -y gdb
-
+# Zim
+apt-get install -y zim
