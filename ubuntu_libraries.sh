@@ -24,7 +24,7 @@ apt-get install -y virtualenv
 # More Ubuntu Software
 apt-get install -y vim
 # GIMP - refer to http://tipsonubuntu.com/2016/08/02/install-gimp-2-9-5-ubuntu-16-04/
-add-apt-repository ppa:otto-kesselgulasch/gimp-edge
+add-apt-repository -y ppa:otto-kesselgulasch/gimp-edge
 apt-get update
 apt install -y gimp gimp-gmic
 apt install -y ppa-purge && ppa-purge ppa:otto-kesselgulasch/gimp-edge
@@ -33,15 +33,15 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
 sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 apt-get install -y google-chrome-stable
 # Calendar indicator
-add-apt-repository ppa:atareao/atareao
+add-apt-repository -y ppa:atareao/atareao
 apt-get update
 apt install -y calendar-indicator
 # Go-gfor-it Refer - https://itsfoss.com/go-for-it-to-do-app-in-linux/
-add-apt-repository ppa:mank319/go-for-it
+add-apt-repository -y ppa:mank319/go-for-it
 apt-get update
 apt-get install -y go-for-it
 # F.lux
-add-apt-repository ppa:nathan-renniewaldock/flux
+add-apt-repository -y ppa:nathan-renniewaldock/flux
 apt-get update
 apt-get install -y fluxgui
 # Okular and VLC
