@@ -51,3 +51,7 @@ apt-get install -y vlc
 apt-get install -y gdb
 # Zim
 apt-get install -y zim
+# Tor
+add-apt-repository -y ppa:webupd8team/tor-browser
+apt-get update
+apt-get install tor-browser
