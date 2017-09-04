@@ -55,3 +55,5 @@ apt-get install -y zim
 add-apt-repository -y ppa:webupd8team/tor-browser
 apt-get update
 apt-get install tor-browser
+#Unity Tweak Tool
+apt-get install -y unity-tweak-tool
