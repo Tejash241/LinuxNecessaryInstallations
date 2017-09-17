@@ -25,7 +25,7 @@ apt-get install -y virtualenv
 apt-get install -y vim
 # GIMP - refer to http://tipsonubuntu.com/2016/08/02/install-gimp-2-9-5-ubuntu-16-04/
 add-apt-repository -y ppa:otto-kesselgulasch/gimp-edge
-apt-get update
+apt-get -y update
 apt install -y gimp gimp-gmic
 apt install -y ppa-purge && ppa-purge ppa:otto-kesselgulasch/gimp-edge
 # Google Chrome - refer to https://askubuntu.com/questions/510056/how-to-install-google-chrome
@@ -34,15 +34,15 @@ sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 apt-get install -y google-chrome-stable
 # Calendar indicator
 add-apt-repository -y ppa:atareao/atareao
-apt-get update
+apt-get -y update
 apt install -y calendar-indicator
 # Go-gfor-it Refer - https://itsfoss.com/go-for-it-to-do-app-in-linux/
 add-apt-repository -y ppa:mank319/go-for-it
-apt-get update
+apt-get -y update
 apt-get install -y go-for-it
 # F.lux
 add-apt-repository -y ppa:nathan-renniewaldock/flux
-apt-get update
+apt-get -y update
 apt-get install -y fluxgui
 # Okular and VLC
 apt-get install -y okular
@@ -53,7 +53,7 @@ apt-get install -y gdb
 apt-get install -y zim
 # Tor
 add-apt-repository -y ppa:webupd8team/tor-browser
-apt-get update
+apt-get -y update
 apt-get install tor-browser
 #Unity Tweak Tool
 apt-get install -y unity-tweak-tool
