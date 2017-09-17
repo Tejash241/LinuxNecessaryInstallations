@@ -1,6 +1,6 @@
 # First update and upgrade all necessary distributions. Refer - https://askubuntu.com/questions/733434/one-single-command-to-update-everything-in-ubuntu
 echo Installing Distributions and Basic Libraries Updates Now....
-apt-get update && apt-get upgrade && apt-get dist-upgrade
+apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
 
 #echo Installing JDK8 Now......
 #apt-get install -y openjdk-8-jdk
