@@ -57,3 +57,6 @@ apt-get -y update
 apt-get install tor-browser
 #Unity Tweak Tool
 apt-get install -y unity-tweak-tool
+# curl
+apt-get install -y curl
+# 
